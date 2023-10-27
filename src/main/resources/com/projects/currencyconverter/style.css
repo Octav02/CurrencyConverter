@@ -1,0 +1,61 @@
+/* Apply styles to Label with an ImageView */
+.label {
+    -fx-pref-height: 100;
+    -fx-pref-width: 300;
+    -fx-anchor-pane-left: 200;
+    -fx-anchor-pane-top: 25;
+}
+
+/* Apply styles to TextField */
+.text-field {
+    -fx-pref-width: 480;
+    -fx-prompt-text-fill: rgb(128, 128, 128);
+    -fx-background-color: #e0e0e0;
+}
+
+
+/* Apply styles to ComboBox */
+.combo-box {
+    -fx-pref-width: 480;
+    -fx-prompt-text-fill: rgb(128, 128, 128);
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: #333;
+    -fx-border-width: 1px;
+}
+
+/* Apply styles to Button */
+.button {
+    -fx-pref-width: 480;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+/* Apply styles to Label with Font */
+.label[fx-id="resultLabel"] {
+    -fx-alignment: center;
+    -fx-layout-x: 30;
+    -fx-layout-y: 588;
+    -fx-pref-height: 125;
+    -fx-pref-width: 480;
+    -fx-text-alignment: center;
+    -fx-background-color: #f0f0f0;
+}
+
+/* Apply styles to ImageView inside Label */
+.label > .image-view {
+    -fx-fit-height: 100;
+    -fx-fit-width: 300;
+    -fx-preserve-ratio: true;
+}
+
+/* Apply styles to elements with styleClass "common-component" */
+.common-component {
+    -fx-background-color: #f0f0f0;
+    -fx-font-size: 14;
+    -fx-text-fill: #333;
+}
+
+/* Apply a hand cursor to elements with styleClass "hand-cursor" */
+.hand-cursor {
+    -fx-cursor: hand;
+}
